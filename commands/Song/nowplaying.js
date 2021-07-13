@@ -35,7 +35,7 @@ module.exports = {
     message.channel.send(new MessageEmbed()
       .setAuthor("Now Playing ♪", client.user.displayAvatarURL(), "")
       .setThumbnail(`https://img.youtube.com/vi/${player.queue.current.identifier}/mqdefault.jpg`)
-      .setURL("https://milrato.eu")
+      .setURL("")
       .setColor("0056bf")
       .setDescription(`[${player.queue.current.title.split("[").join("\[").split("]").join("\]")}](${player.queue.current.uri})\n\n\`${createBar(player)}\`\n\n\`${format(player.position).split(" | ")[0]} / ${format(player.queue.current.duration).split(" | ")[0]}\`\n\n\`Requested by:\` ${player.queue.current.requester.username} (${player.queue.current.requester.tag})`)
     ).catch(e=>{
