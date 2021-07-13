@@ -9,13 +9,5 @@ module.exports = async (client, guild) => {
      \`-\` You can see a list of commands by typing \`!help\` / \`!commands\`
      \`-\` You can change my prefix with \`!settings prefix <New Prefix>\`
      \`-\` If you need help, feel free to join our support server at **https://support.milrato.eu**`);
-  /**
-   * @INFO
-   * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-   * @INFO
-   * Work for Milrato Development | https://milrato.eu
-   * @INFO
-   * Please mention Him / Milrato Development, when using this Code!
-   * @INFO
-   */
+  
 }
