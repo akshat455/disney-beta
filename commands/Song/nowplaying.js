@@ -11,7 +11,7 @@ module.exports = {
   name: `nowplaying`,
   category: `Song`,
   aliases: [`np`,],
-  description: `Shows what song Rythm is currently playing.`,
+  description: `Shows what song disney is currently playing.`,
   usage: `nowplaying`,
   run: async (client, message, args, cmduser, text, prefix) => {
     //get the voice channel of the member
