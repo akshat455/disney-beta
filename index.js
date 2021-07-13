@@ -1,12 +1,4 @@
-﻿/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
+﻿
 //Importing all needed Commands
 const Discord = require("discord.js"); //this is the official discord.js wrapper for the Discord Api, which we use!
 const colors = require("colors"); //this Package is used, to change the colors of our Console! (optional and doesnt effect performance)
@@ -47,17 +39,6 @@ client.login(require("./botconfig/config.json").token);
 
 const Enmap = require("enmap")
 client.settings = new Enmap({name: "settings", dataDir: "./database/settings"})
-/**
-  * @INFO
-  * Bot Coded by Tomato#6966 | https://github.com/Tomato6966/Discord-Js-Handler-Template
-  * @INFO
-  * Work for Milrato Development | https://milrato.eu
-  * @INFO
-  * Please mention Him / Milrato Development, when using this Code!
-  * @INFO
-*/
-
-
 
 
 process.on("unhandledRejection", (reason, promise) => {
